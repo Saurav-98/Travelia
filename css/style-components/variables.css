@@ -1,3 +1,7 @@
+/*-----------------------------------*\
+  #CUSTOM PROPERTY
+\*-----------------------------------*/
+
 :root {
   /**
    * COLORS
@@ -5,6 +9,8 @@
 
   /* backgroud colors */
   --bg-white: hsl(0, 0%, 100%);
+  --bg-black-alpha-40: hsla(0, 0%, 0%, 0.4);
+  --bg-black-alpha-30: hsla(0, 0%, 0%, 0.3);
   --bg-black-alpha-20: hsla(0, 0%, 0%, 0.2);
   --bg-lavender-blush: hsl(0, 100%, 98%);
   --bg-majorelle-blue: hsl(249, 95%, 63%);

@@ -25,7 +25,42 @@
   </head>
   <body>
     <div id="app">
-      <h1>This is My Website</h1>
+      <!-- Preloader Component -->
+
+      <div class="preloader" data-preloader>
+        <div class="preloader-inner">
+          <img
+            src="./assets/preloader.svg"
+            alt="travel preloader"
+            width="50"
+            height="50"
+            class="img"
+          />
+        </div>
+      </div>
+
+      <header class="header" data-header>
+        <div class="container">
+          <a href="#" class="logo">
+            <img src="./assets/logo.svg" alt="logo" width="187" />
+          </a>
+
+          <nav class="navBar" data-navBar>
+            <div class="navBar-top">
+              <a href="#" class="logo">
+                <img src="./assets/logo.svg" alt="logo" width="187" />
+              </a>
+
+              <button
+                class="nav-toggle-btn"
+                aria-label="close menu"
+                data-nav-toggler
+              ></button>
+            </div>
+          </nav>
+        </div>
+      </header>
+
       <!-- Link JS FIle -->
       <script src="./js/script.js"></script>
 
